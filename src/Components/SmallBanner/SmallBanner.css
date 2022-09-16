@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap");
+.smallbanner-class {
+  position: relative;
+  overflow: hidden;
+  padding: 0 50px;
+}
+.smallbanner-class img {
+  width: 100%;
+}
+.smallbanner-text {
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 10%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.smallbanner-text p {
+  line-height: 0.4;
+  /* font-family: "Magra", sans-serif; */
+  font-family: "Madri";
+}
+
+.smallbanner-text a {
+  color: white;
+  font-size: 1rem;
+}

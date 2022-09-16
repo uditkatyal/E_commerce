@@ -1,0 +1,40 @@
+.register-hover {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.register-hover:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid black;
+}
+.login-hover {
+  background-color: white;
+  border: 1px solid black;
+}
+.login-hover:hover {
+  background-color: black;
+  color: white;
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: #333;
+}
+.login-register-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.input-email-password {
+  padding: 10px;
+  font-size: 0.85rem;
+  border: 1px solid rgb(100, 100, 100);
+}
+.input-email-password:focus {
+  outline: none;
+}
+.email-password {
+  display: flex;
+  flex-direction: column;
+}

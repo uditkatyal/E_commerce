@@ -1,0 +1,93 @@
+.metropolis-collection-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.metropolis-collection-item {
+  text-align: center;
+}
+.shop-the-collection-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 35px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+.shop-the-collection-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.metropolis-text {
+  text-align: center;
+  padding: 10px 20px;
+  margin: 20px 0;
+  color: rgb(81, 81, 81);
+}
+.metropolis-hashtag {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  margin-top: 30px;
+  letter-spacing: 2px;
+}
+.metropolis-collection {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.metropolis-image {
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+}
+.metropolis-image:hover {
+  transform: scale(1.1);
+  filter: brightness(50%);
+}
+.div-text-white {
+  /* position: relative; */
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
+  margin: 0 auto;
+  width: 300px;
+}
+.dark-line {
+  content: "";
+  position: absolute;
+  top: 7%;
+  width: 77.2%;
+
+  left: 11.5%;
+  height: 3px;
+  background-color: #000;
+  z-index: -1;
+}
+
+.collection-text {
+  position: relative;
+  top: -10px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 2px;
+  margin: 60px 0;
+}
+
+.new-collection-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  min-width: 300px;
+}
+
+.main-header-container {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}

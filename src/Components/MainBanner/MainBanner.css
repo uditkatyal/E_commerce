@@ -1,0 +1,14 @@
+.banner-head {
+  padding: 0 50px;
+  margin-top: 150px;
+}
+.banner-gif {
+  cursor: pointer;
+  width: 100%;
+}
+.banner-img {
+  width: 100%;
+}
+.banner-base {
+  padding: 0 50px;
+}

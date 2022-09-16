@@ -1,0 +1,108 @@
+.about-container {
+  width: 78%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+.about-container > p {
+  /* text-align: center; */
+}
+.our-presence-image {
+}
+.our-presence-image img {
+  width: 100%;
+  overflow: hidden;
+}
+.contact-us-button-div {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.contact-us-button {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 40px;
+  transition: all 0.3s ease-in-out;
+}
+.contact-us-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.contact-us-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-us-container div {
+  flex: 1;
+  text-align: center;
+}
+.contact-us-container form {
+  flex: 1;
+  text-align: center;
+}
+.urban-fashion-contact-image {
+  height: 500px;
+}
+.urban-fashion-contact-image img {
+  width: 100%;
+  /* height: 480px; */
+  overflow: hidden;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.urban-fashion-contact-image img:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+}
+.contact-us-start {
+  padding: 30px 0;
+}
+.urban-fashion-contact-details {
+  position: relative;
+  top: -50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.urban-fashion-contact-details input {
+  width: 300px;
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 12px;
+  border: 1px solid rgb(127, 127, 127);
+}
+.urban-fashion-contact-details input:focus {
+  border: 1px solid rgb(100, 100, 100);
+}
+.name-email {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.send-contact-button {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 60px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+}
+.send-contact-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+@media (max-width: 900px) {
+  .contact-us-container {
+    flex-direction: column;
+  }
+  .urban-fashion-contact-details {
+    top: 40px;
+  }
+}

@@ -1,0 +1,9 @@
+.slider-control {
+  overflow: hidden;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.slider-control img {
+  width: 100%;
+}

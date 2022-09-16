@@ -1,0 +1,86 @@
+.carousel-caption {
+  top: 30%;
+}
+.carousel-caption h3 {
+  font-size: 72px;
+}
+.carousel-caption p {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.carousel-caption .carousel-button {
+  background: transparent;
+  padding: 10px 50px;
+  border: 2px solid ghostwhite;
+  color: ghostwhite;
+  font-weight: bold;
+  font-size: 13px;
+  transition: all 0.2s ease-in-out;
+}
+.carousel-caption .carousel-button:hover {
+  background: black;
+  color: ghostwhite;
+  border: 2px solid black;
+}
+.heroCarousel-title {
+  visibility: visible;
+  animation-delay: 0.1s;
+  animation-name: fadeInUp;
+}
+@media (max-width: 1024px) {
+  .carousel-caption h3 {
+    font-size: 3rem;
+  }
+  .carousel-caption p {
+    font-size: 0.6rem;
+  }
+  .carousel-caption .carousel-button {
+    padding: 10px 30px;
+    font-size: 0.6rem;
+  }
+}
+.carousel-caption-responsive-data-div {
+  background-color: #f7f8f9;
+}
+.carousel-caption-responsive-data {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .carousel-caption h3 {
+    position: relative;
+    bottom: 30%;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    position: relative;
+    bottom: 20%;
+  }
+  .carousel-caption p {
+    text-align: center;
+    font-weight: bold;
+    /* display: none; */
+  }
+  .carousel-caption .carousel-button {
+    padding: 10px 20px;
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel-caption h3 {
+    bottom: 40%;
+    font-size: 2rem;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    bottom: 25%;
+  }
+}

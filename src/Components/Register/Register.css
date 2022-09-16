@@ -1,0 +1,53 @@
+.registeration-details {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 0 200px;
+}
+.registeration-details > div {
+  flex: 50%;
+  padding: 20px;
+  width: 100%;
+}
+.registeration-details > div input {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.8rem;
+  border: 1px solid rgb(192, 192, 192);
+}
+.registeration-details > div input:focus {
+  outline: none;
+}
+.registeration-details > div select {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.65rem;
+  border: 1px solid rgb(192, 192, 192);
+}
+.registeration-details > div select option {
+  font-size: 0.95rem;
+}
+.registeration-details > div select:focus {
+  outline: none;
+}
+.registeration-details > div label {
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.create-account {
+  color: white;
+  padding: 5px 25px;
+  background-color: #2c062c;
+  transition: all 0.3s ease-in;
+}
+.new-account-head {
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.create-account:hover {
+  color: #2c062c;
+  background-color: #ffffff;
+}

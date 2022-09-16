@@ -1,0 +1,19 @@
+.payContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.proceedToCheckout {
+  letter-spacing: 2px;
+  background-color: rgb(255, 118, 119);
+  border: none;
+  cursor: pointer;
+  padding: 10px 120px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.proceedToCheckout:hover {
+  background-color: black;
+}

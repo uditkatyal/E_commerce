@@ -1,0 +1,15 @@
+.look-category {
+  background-color: #fcf8e3;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 15%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.women-main-container {
+  margin-top: 50px;
+}
+.favourite-icon-women {
+  top: -100px;
+  left: 140px;
+}

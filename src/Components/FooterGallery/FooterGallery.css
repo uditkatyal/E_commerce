@@ -1,0 +1,58 @@
+.footer-image-container {
+  column-count: 6;
+  margin: 0 20px;
+  position: relative;
+}
+.footer-image__item img {
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+
+.insta-handle-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color: white;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  transition: all 350ms ease-in;
+}
+
+.footer-image__item img:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.insta-handle-button:hover {
+  background-color: #fd917e;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .footer-image-container {
+    column-count: 3;
+  }
+  .insta-handle-button {
+    top: 48.7%;
+  }
+  .footer-image__item {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .footer-image-container {
+    column-count: 2;
+  }
+}
+@media (max-width: 400px) {
+  .footer-image-container {
+    column-count: 1;
+  }
+  .insta-handle-button {
+    top: 49.6%;
+  }
+}

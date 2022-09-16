@@ -1,0 +1,240 @@
+.sub-category {
+  position: absolute;
+  top: 29.5%;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  z-index: 1000;
+  height: 50vh;
+}
+.women-head-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 -80px;
+}
+.accessories-content {
+  display: flex;
+  height: 100%;
+}
+.accessories-image,
+.accessories-list {
+  flex: 1;
+}
+.accessories-image {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accessories-image img {
+  height: 100%;
+  width: 100%;
+  padding: 50px 100px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.accessories-list {
+  margin-top: 17px;
+  height: 82%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  gap: -100px;
+}
+.accessories-list-categories {
+  flex: 1 0 30%;
+  padding: 20px;
+}
+.accessories-list-categories li {
+  position: relative;
+  list-style-type: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.accessories-list li {
+  transition: all 0.1s ease-in;
+}
+.mg-1 {
+  margin-top: -90px;
+}
+.list-head-category {
+}
+.list-head-category-main {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.list-head-category-sub {
+  left: 3px;
+}
+
+.list-head-category-sub:hover {
+  left: 10px;
+}
+.list-head-category-main:hover {
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+}
+
+.drop-down-style {
+  background-color: rgb(255, 255, 255);
+  outline: none;
+}
+
+.drop-down-style:active {
+  outline: none;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(148, 17, 17, 0);
+}
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.content {
+  padding: 16px;
+}
+.sticky + .content {
+  padding-top: 102px;
+} */
+.search-bar-container {
+  padding: 15px 30px;
+  border-radius: 20px;
+  font-size: 12px;
+  height: 40px;
+  width: 180px;
+  transition: all 0.3s ease-in-out;
+}
+.search-form {
+  position: relative;
+  box-sizing: border-box;
+}
+.fa-search-position {
+  cursor: pointer;
+  position: absolute;
+  font-size: 12px;
+  top: 38%;
+  left: 6%;
+}
+.categories-sub-image {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 -80px;
+  transition: all 0.3s ease-in-out;
+  overflow-y: hidden;
+}
+.categories-sub-image:hover {
+  /* transform: scale(1.1); */
+  filter: brightness(70%);
+}
+.menu-bar-icon {
+  cursor: pointer;
+  position: relative;
+  font-size: 12px;
+  left: 2%;
+}
+/* @media (min-width: 1024px) {
+  .menu-bar-icon {
+    display: none;
+  }
+} */
+.side-header {
+  position: fixed;
+  top: 0;
+  width: 70%;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  overflow: scroll;
+  transition: all 0.3s ease-in-out;
+}
+/* applying keyframes to .side-header */
+
+.sideHeader-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 0px 20px;
+  height: 100%;
+}
+.sideHeader-list li {
+  list-style: none;
+
+  cursor: pointer;
+}
+.sideHeader-list li a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.side-header-heading-div {
+  background-color: rgb(0, 0, 0);
+}
+.side-header-heading {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 17px;
+}
+.sideHeader-list i {
+  font-size: 16px;
+}
+.close-side-bar {
+  position: fixed;
+  top: 0;
+  left: 70%;
+}
+.close-side-bar button {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  z-index: 1000;
+  border: none;
+}
+.close-side-bar button i {
+}
+.fa-xmark {
+  color: white;
+  font-size: 1.5rem;
+}
+.overlay-sideHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+.sidebar-image img {
+  padding: 5px 50px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* object-position: 0 -80px; */
+}
+.side-header-sublist li {
+  margin: 10px 0;
+}
+.side-header-sublist li a {
+  color: #333;
+}
+.side-header-social-media {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
