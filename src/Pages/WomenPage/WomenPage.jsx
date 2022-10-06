@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Women from "../../Components/Women/Women";
+// import Women from "../../Components/Women/Women";
 import Header from "../../Components/Header/Header";
 import ShopByCategory from "../../Components/ShopByCategory/ShopByCategory";
 import Footer from "../../Components/Footer/Footer";
